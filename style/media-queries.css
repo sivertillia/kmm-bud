@@ -1,0 +1,230 @@
+@media screen and (max-width: 1170px){
+    body {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+
+    /*Banner:*/
+    .banner .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*Menu:*/
+    .menu {
+        width: 100%;
+    }
+    .menu .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*Bg_1:*/
+    .bg_1 .box_block {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*About:1*/
+    .km_box_company {
+        display: flex;
+        flex-direction: column;
+    }
+    .km_company_text {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .km_company_photo {
+        margin: 0 auto;
+    }
+    /*Bg_2:*/
+    .bg_2 .min_title {
+        text-align: center;
+    }
+    .bg_2 .box_links {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*Bg_3:*/
+    .bg_3 .box_block {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*Footer:*/
+    footer .overlay2 {
+        height: 200%;
+    }
+    footer .km_info_box {
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 1140px){
+    .menu .km_social_list {
+        padding-right: 5%;
+    }
+    .parallax .camera_overplay {
+        width: 327%;
+        left: 39%;
+    }
+    .parallax .caption2 {
+        padding-right: 20px;
+    }
+    /*Bg_1:*/
+    .bg_1 .overlay1 {
+        transform: rotate(0deg);
+        width: 50%;
+        right: 0;
+    }
+    .bg_1 .box_block {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        margin: 0 auto;
+    }
+    .bg_1 .box_block .service {
+        bottom: -5px;
+    }
+    .caption {
+        right: 50px;
+    }
+    .slider .camera_overplay {
+        left: 30%;
+    }
+    footer .overlay2 {
+        height: 300%;
+    }
+}
+@media screen and (max-width: 962px){
+    /*Banner:*/
+    .banner .km_title {
+        font-size: 80px;
+    }
+    .banner .km_sub_title {
+        font-size: 27px;
+        margin: -20px 0 0 3px;
+    }
+    /*Menu:*/
+    .menu .km_social_list {
+        display: none;
+    }
+    /*Slider:*/
+    .slider .camera_overplay {
+        display: none;
+    }
+    .container .btn_1 {
+        right: 0;
+        /*right: 359px;*/
+    }
+    /*Bg_2:*/
+    .bg_2 .box_links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .parallax .camera_overplay {
+        display: none;
+    }
+    footer .overlay2 {
+        transform: rotate(0deg);
+        width: 65%;
+        right: 35%;
+    }
+}
+@media screen and (max-width: 800px){
+    /*Banner:*/
+    .banner .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .km_phone_box {
+        display: inline-flex;
+    }
+    .banner .km_sub_title {
+        font-size: 27px;
+        margin: -20px 0 0 -57px;
+    }
+    footer .overlay2 {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+}
+@media screen and (max-width: 700px){
+    /*Menu:*/
+    .menu .km_menu_box {
+    }
+    .menu .km_menu_box > li > a {
+        font-size: 15px;
+        padding: 9px 19px 10px 20px;
+    }
+    .caption > .container h2 {
+        font-size: 50px;
+    }
+    .caption2 h2 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 540px){
+
+}
+@media screen and (max-width: 526px){
+    /*Menu:*/
+    .menu .km_menu_box {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .km_menu_box > li > a {
+        border-left: 1px solid #777777;
+        border-right: 1px solid #777777;
+        border-top: 1px solid #777777;
+    }
+    .menu .km_menu_box > li:last-of-type {
+        border-bottom: 1px solid #777777;
+    }
+    .km_sticky_menu {
+    position: relative;
+    }
+    .parallax {
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 471px){
+    .km_company_photo {
+        width: 100%;
+        height: 100%;
+    }
+    .km_company_photo img {
+        width: 100%;
+        height: 100%;
+    }
+    .banner .km_title {
+        font-size: 50px;
+    }
+    .banner .km_sub_title {
+        font-size: 17px;
+        margin: -11px 0 0 -35px;
+    }
+    .km_subtitle {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+    .km_phone_box i {
+        display: none;
+    }
+    .km_phone {
+        font-size: 30px;
+    }
+    .container .btn_1 {
+        padding: 16px 0 15px;
+        min-width: 180px;
+    }
+    .btn_2 {
+        padding: 16px 0 15px;
+        min-width: 180px;
+    }
+}
+@media screen and (max-width: 400px){
+    .bg_1 .box_block .service {
+        right: 64px;
+    }
+}
